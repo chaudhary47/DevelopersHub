@@ -1,0 +1,52 @@
+# Linear Regression, Random Forest, and XGBoost from Scratch
+
+## Project Overview
+This project implements three machine learning models — Linear Regression, Random Forest, and XGBoost — from scratch without using built-in libraries like Scikit-Learn. The goal is to understand the fundamentals behind these algorithms and evaluate their performance on a dataset.
+
+## Models Implemented
+1. **Linear Regression:** A simple and interpretable regression technique.
+2. **Random Forest:** An ensemble method using multiple decision trees.
+3. **XGBoost:** An advanced boosting technique optimized from scratch.
+
+## Project Structure
+- **calculate_metrics:** Computes RMSE (Root Mean Squared Error) and R² (Coefficient of Determination) to evaluate model performance.
+- **Linear Regression:** Uses a simple formula to make predictions.
+- **Random Forest:** Implements a simplified version using random sampling and threshold-based splits.
+- **XGBoost:** Implements an enhanced gradient boosting approach with gradient descent and regularization.
+
+##Feature Importance: 
+This step focuses on visualizing the feature importance for Random Forest and XGBoost models using the specified project features. 
+The objective is to understand the impact of each feature on the model's predictions.
+
+##Purpose
+Analyze and compare the importance of each feature for both Random Forest and XGBoost models.
+
+Identify the most significant features influencing model predictions.
+
+Gain insights into feature relevance for better decision-making.
+
+## Installation
+Ensure you have **NumPy** installed:
+
+pip install numpy
+
+## How to Run
+1. Prepare your dataset and ensure it's in the format `(X, y)` where:
+   - `X`: Features (2D NumPy array)
+   - `y`: Target variable (1D NumPy array)
+
+## Example Output
+```
+Linear Regression - RMSE: 0.0268, R²: 0.9999
+Random Forest - RMSE: 0.8803, R²: 0.8450
+XGBoost - RMSE: 0.9091, R²: 0.8347
+```
+
+## Performance Evaluation
+- **Linear Regression:** Achieved excellent performance with high R².
+- **Random Forest:** Good performance, though it may vary based on tree depth and number of trees.
+- **XGBoost:** Competitive performance, demonstrating the power of boosting.
+
+## Contact
+For any queries or improvements, please feel free to reach out--> becauseofwork47@gmail.com.
+
